@@ -1,0 +1,79 @@
+#appendToMe {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 17px;
+    background-color: #fbf9f9;
+    width: 750px; 
+    border-radius: 3px;
+    font-size: 20px;
+  }
+  body{
+    background-color: #e0dcdc;
+  }
+  
+
+  
+  #clickMe {
+    background-color: #e0dcdc;
+    display: inline-block;
+    padding:17px;
+    font-family: Helvetica;
+    border-radius: 3px;
+    border: 2px solid #000000;
+    margin-top: 20px;
+  }
+  
+  #clickMe:hover {
+    cursor: pointer;
+  }
+
+  
+  
+  
+  
+  
+  .darkMode {
+    background-color: rgb(39, 51, 55);
+    color: #ffffff
+  }
+  .darkMode .item{
+    background-color: #726c6c
+  }
+  
+  .darkMode #clickMe{
+    background-color:  rgb(39, 51, 55);
+    border: 2px solid #ffffff;
+  }
+  h1, #clickMe{
+    margin-left: 88px;
+    margin-bottom: 5px;
+  }
+ hr{
+    width: 5%;
+    margin-left: 88px;
+    margin-top: 0;
+ }
+ 
+ .item .price{
+  flex: 1;
+  text-align: left;
+  padding-right: 20px;
+ }
+ .item .details{
+   flex: 1;
+   text-align: left;
+   
+ }
+ .item .name{
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+ }
